@@ -3,7 +3,7 @@
 
 Web II Hibernate - Web Programming II - Day 42
 
-> 📌 **Note:** You are viewing the README for the `backend` branch. This branch contains the full project implementation.
+> 📌 **Note:** You are viewing the README for the `backend` branch. This branch contains the full project implementation. 
 
 # Hibernate-Based Java Project
 
@@ -96,6 +96,28 @@ Make sure the following libraries are included in your `lib/` or classpath:
 ```
 
 *Remember to - **REPLACE YOUR DATABASE PASSWORD***
+
+## 🗄️ Database Files
+
+* The folder database ER & Full backup sql/ contains:
+
+#### 🧩 ER Diagram Model – Visual entity-relationship diagram of the database structure.
+
+#### 💾 SQL Backup File – A complete .sql backup of the MySQL database.
+
+* You can import this into your MySQL server using any tool like phpMyAdmin / MySQL Workbench / HeidiSQL / Navicat.
+
+## 🧠 How to Import the Database
+
+* Open your MySQL client (e.g., phpMyAdmin / MySQL Workbench).
+
+* You can use MySQL Workbench to open the ER Diagram model `web_ii_hibernate.mwb` and get database structure
+
+* Or create a new database (e.g., web_ii_hibernate). (Optional - because .sql file contains the database creation)
+
+* Import the `web_ii_hibernate.sql` file from the backup folder.
+
+* *Make sure the DB name matches the one in your `hibernate.cfg.xml` file.*
 
 ## 🚀 Running the Application
 
