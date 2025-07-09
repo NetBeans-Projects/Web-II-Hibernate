@@ -82,13 +82,17 @@ Make sure the following libraries are included in your `lib/` or classpath:
 <hibernate-configuration>
 
   <session-factory>
+
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/web_ii_hibernate?useSSL=false</property>
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">Password</property>
     <property name="hibernate.show_sql">true</property>
+
     <mapping class="hibernate.Brand" />
+    <mapping class="hibernate.Product" />
+
   </session-factory>
 
 </hibernate-configuration>
