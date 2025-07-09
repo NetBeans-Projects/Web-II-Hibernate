@@ -24,9 +24,25 @@ This project is a Java application that uses the **Hibernate ORM framework** to 
 
 ```directory
 src/
-└── controller/ # Data access objects
-└── hibernate/ # Entity classes & HibernateUtil
-└── model/ # Add models you use
+├── controller/             # Classes for insert, delete, search, and update operations
+│   ├── DataDelete.java
+│   ├── DataInsert.java
+│   ├── DataSearch.java
+│   └── DataUpdate.java
+│
+├── hibernate/              # Entity classes & Hibernate utility
+│   ├── Brand.java
+│   ├── Product.java
+│   └── HibernateUtil.java
+│
+├── model/                  # Placeholder for future models (DTOs, etc.)
+│
+├── hibernate.cfg.xml       # Hibernate configuration file (in default package)
+│
+Web Pages/
+├── index.html              # Front-end HTML page
+└── WEB-INF/
+    └── glassfish-web.xml   # GlassFish server configuration
 ```
 
 ---
