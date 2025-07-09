@@ -3,7 +3,8 @@
 
 Web II Hibernate - Web Programming II - Day 42
 
-
+- *****Please Switch to `backend` branch for the project***
+- 📌 ***This project is maintained in the (`backend`)[https://github.com/NetBeans-Projects/Web-II-Hibernate/tree/backend] branch. Please switch to that branch to view the code.***
 
 # Hibernate-Based Java Project
 
@@ -17,9 +18,6 @@ This project is a Java application that uses the **Hibernate ORM framework** to 
 - **Hibernate 4.3.1.Final**
 - **MySQL 8.4.0**
 - **JDBC**
-- **Connection Pooling** (via C3P0)
-- **Second-level Caching** (via EhCache)
-- **SLF4J Logging**
 
 ---
 
@@ -27,11 +25,9 @@ This project is a Java application that uses the **Hibernate ORM framework** to 
 
 ```directory
 src/
-└── model/ # Entity classes
-└── util/ # Hibernate utility (SessionFactory)
-└── dao/ # Data access objects
-└── main/ # Main method or application entry
-└── resources/ # Configuration files
+└── controller/ # Data access objects
+└── hibernate/ # Entity classes & HibernateUtil
+└── model/ # Add models you use
 ```
 
 ---
