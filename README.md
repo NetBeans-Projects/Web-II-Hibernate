@@ -24,9 +24,25 @@ This project is a Java application that uses the **Hibernate ORM framework** to 
 
 ```directory
 src/
-└── controller/ # Data access objects
-└── hibernate/ # Entity classes & HibernateUtil
-└── model/ # Add models you use
+├── controller/             # Classes for insert, delete, search, and update operations
+│   ├── DataDelete.java
+│   ├── DataInsert.java
+│   ├── DataSearch.java
+│   └── DataUpdate.java
+│
+├── hibernate/              # Entity classes & Hibernate utility
+│   ├── Brand.java
+│   ├── Product.java
+│   └── HibernateUtil.java
+│
+├── model/                  # Placeholder for future models (DTOs, etc.)
+│
+├── hibernate.cfg.xml       # Hibernate configuration file (in default package)
+│
+Web Pages/
+├── index.html              # Front-end HTML page
+└── WEB-INF/
+    └── glassfish-web.xml   # GlassFish server configuration
 ```
 
 ---
@@ -81,6 +97,28 @@ Make sure the following libraries are included in your `lib/` or classpath:
 
 *Remember to - **REPLACE YOUR DATABASE PASSWORD***
 
+## 🗄️ Database Files
+
+* The folder database ER & Full backup sql/ contains:
+
+#### 🧩 ER Diagram Model – Visual entity-relationship diagram of the database structure.
+
+#### 💾 SQL Backup File – A complete .sql backup of the MySQL database.
+
+* You can import this into your MySQL server using any tool like phpMyAdmin / MySQL Workbench / HeidiSQL / Navicat.
+
+## 🧠 How to Import the Database
+
+* Open your MySQL client (e.g., phpMyAdmin / MySQL Workbench).
+
+* You can use MySQL Workbench to open the ER Diagram model `web_ii_hibernate.mwb` and get database structure
+
+* Or create a new database (e.g., web_ii_hibernate). (Optional - because .sql file contains the database creation)
+
+* Import the `web_ii_hibernate.sql` file from the backup folder.
+
+* *Make sure the DB name matches the one in your `hibernate.cfg.xml` file.*
+
 ## 🚀 Running the Application
 
 * Import the project into your IDE (Netbeans IDE/Eclipse/IntelliJ).
@@ -107,3 +145,4 @@ For questions or improvements, feel free to open an issue or contact [Jude Thame
 <br />
 <br />
 <br />
+
