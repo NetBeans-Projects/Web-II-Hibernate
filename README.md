@@ -3,8 +3,7 @@
 
 Web II Hibernate - Web Programming II - Day 42
 
-- *****Please Switch to `backend` branch for the project***
-- 📌 ***This project is maintained in the (`backend`)[https://github.com/NetBeans-Projects/Web-II-Hibernate/tree/backend] branch. Please switch to that branch to view the code.***
+- 📌 ***This project is maintained in the (backend)[https://github.com/NetBeans-Projects/Web-II-Hibernate/tree/backend] branch. Please switch to that branch to view the code.***
 
 # Hibernate-Based Java Project
 
