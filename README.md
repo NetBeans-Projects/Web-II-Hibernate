@@ -13,7 +13,7 @@ This project is a Java application that uses the **Hibernate ORM framework** to 
 
 ## 🔧 Technologies Used
 
-- **Java SE**
+- **Java EE**
 - **Hibernate 4.3.1.Final**
 - **MySQL 8.4.0**
 - **JDBC**
