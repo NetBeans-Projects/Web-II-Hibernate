@@ -101,6 +101,8 @@ Make sure the following libraries are included in your `lib/` or classpath:
 
 *Remember to - **REPLACE YOUR DATABASE PASSWORD***
 
+---
+
 ## 🗄️ Database Files
 
 * The folder database ER & Full backup sql/ contains:
@@ -110,6 +112,8 @@ Make sure the following libraries are included in your `lib/` or classpath:
 #### 💾 SQL Backup File – A complete .sql backup of the MySQL database.
 
 * You can import this into your MySQL server using any tool like phpMyAdmin / MySQL Workbench / HeidiSQL / Navicat.
+
+---
 
 ## 🧠 How to Import the Database
 
@@ -123,6 +127,8 @@ Make sure the following libraries are included in your `lib/` or classpath:
 
 * *Make sure the DB name matches the one in your `hibernate.cfg.xml` file.*
 
+---
+
 ## 🚀 Running the Application
 
 * Import the project into your IDE (Netbeans IDE/Eclipse/IntelliJ).
@@ -133,15 +139,19 @@ Make sure the following libraries are included in your `lib/` or classpath:
 
 * Request to Servlets as you need to interact with the database
 
+---
+
 ## ✅ Features
 
 * Add/Update/Delete/Search entities using Hibernate
 
+---
 
 ## 📌 Notes
 
 Make sure MySQL is running and the database exists before running the application.
 
+---
 
 ## 📞 Contact
 For questions or improvements, feel free to open an issue or contact [Jude Thamel](https://github.com/JudeThamel).
