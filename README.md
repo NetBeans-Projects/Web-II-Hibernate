@@ -1,7 +1,7 @@
 
 # Web-II-Hibernate
 
-Web II Hibernate - Web Programming II - Day 42
+Web Programming II - Day 42
 
 - 📌 ***This project is maintained in the [`backend`](https://github.com/NetBeans-Projects/Web-II-Hibernate/tree/backend) branch. Please switch to that branch to view the code.***
 
@@ -155,6 +155,16 @@ Make sure MySQL is running and the database exists before running the applicatio
 
 ## 📞 Contact
 For questions or improvements, feel free to open an issue or contact [Jude Thamel](https://github.com/JudeThamel).
+
+---
+
+## License
+
+This project is licensed under **JudeThamel License v1.0**.  
+Only personal and educational use is allowed. Commercial or modified use is strictly prohibited without written permission.
+
+[View Full License](./LICENSE)
+
 
 <br />
 <br />
